@@ -39,13 +39,11 @@ const BlogSidebar = () => {
               </div>
               <div className="tp-sidebar-about-content">
                 <h3 className="tp-sidebar-about-title">
-                  <a href="#">Ravi {"O'Leigh"}</a>
+                  <a href="#">Tanmay ahire</a>
                 </h3>
-                <span className="tp-sidebar-about-designation">Photographer & Blogger</span>
-                <p>Lorem ligula eget dolor. Aenean massa. Cum sociis que penatibus magnis dis parturient</p>
-                <div className="tp-sidebar-about-signature">
-                  <Image src={signature} alt="signature" />
-                </div>
+                <span className="tp-sidebar-about-designation">Designer & Developer</span>
+                <p>hi i am tanmay mumbai based full stack devloper build scalabe and robust applications</p>
+                
               </div>
             </div>
           </div>

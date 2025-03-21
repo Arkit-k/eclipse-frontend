@@ -5,7 +5,7 @@ export const categoryApi = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     addCategory: builder.mutation({
       query: (data) => ({
-        url: "https://shofy-backend.vercel.app/api/category/add",
+        url: "https://shofy-backend.vercel.app/add",
         method: "POST",
         body: data,
       }),

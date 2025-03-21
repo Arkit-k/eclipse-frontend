@@ -34,14 +34,14 @@ const HeaderTwo = ({ style_2 = false }) => {
                       <a href="#">
                         <span>
                           <Facebook />
-                        </span> 7500k Followers
+                        </span> 
                       </a>
                     </div>
                     <div className="tp-header-info-item">
-                      <a href="tel:966-595-035-008">
+                      <a href="tel:+919322359274">
                         <span>
                           <PhoneTwo />
-                        </span> +(966) 595 035 008
+                        </span> 
                       </a>
                     </div>
                   </div>
@@ -62,7 +62,7 @@ const HeaderTwo = ({ style_2 = false }) => {
                   <div className="col-xl-2 col-lg-5 col-md-5 col-sm-4 col-6">
                     <div className="logo">
                       <Link href="/">
-                        <Image src={logo} alt="logo" priority />
+                        <h2>Eclipse.</h2>
                       </Link>
                     </div>
                   </div>

@@ -42,8 +42,6 @@ const menu_data = [
         title: 'Shop Page',
         link: '/shop',
         mega_menus: [
-          { title: 'Only Categories', link: '/shop-category' },
-          { title: 'Shop Grid with Sideber', link: '/shop' },
           { title: 'Product Details', link: '/product-details' },
         ]
       },
@@ -52,9 +50,6 @@ const menu_data = [
         link: '/product-details',
         mega_menus: [
           { title: 'Product Simple', link: '/product-details' },
-          { title: 'With Video', link: '/product-details-video' },
-          { title: 'With Countdown Timer', link: '/product-details-countdown' },
-          { title: 'Variations Swatches', link: '/product-details-swatches' },
         ]
       },
       {
@@ -62,20 +57,6 @@ const menu_data = [
         link: '/shop',
         mega_menus: [
           { title: 'Shopping Cart', link: '/cart' },
-          { title: 'Compare', link: '/compare' },
-          { title: 'Wishlist', link: '/wishlist' },
-          { title: 'Checkout', link: '/checkout' },
-          { title: 'My account', link: '/profile' },
-        ]
-      },
-      {
-        title: 'More Pages',
-        link: '/shop',
-        mega_menus: [
-          { title: 'Login', link: '/login' },
-          { title: 'Register', link: '/register' },
-          { title: 'Forgot Password', link: '/forgot' },
-          { title: '404 Error', link: '/404' },
         ]
       },
     ]
@@ -87,8 +68,6 @@ const menu_data = [
     link: '/shop',
     sub_menus: [
       { title: 'Shop', link: '/shop' },
-      { title: 'Right Sidebar', link: '/shop-right-sidebar' },
-      { title: 'Hidden Sidebar', link: '/shop-hidden-sidebar' },
     ],
   },
   {
@@ -104,10 +83,6 @@ const menu_data = [
     link: '/blog',
     sub_menus: [
       { title: 'Blog Standard', link: '/blog' },
-      { title: 'Blog Grid', link: '/blog-grid' },
-      { title: 'Blog List', link: '/blog-list' },
-      { title: 'Blog Details', link: '/blog-details' },
-      { title: 'Blog Details Full Width', link: '/blog-details-2' },
     ]
   },
   {
